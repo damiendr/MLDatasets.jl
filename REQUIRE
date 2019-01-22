@@ -5,3 +5,4 @@ ColorTypes 0.4
 DataDeps 0.3
 GZip 0.5
 BinDeps
+Mmap

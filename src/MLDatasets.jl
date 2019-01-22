@@ -45,6 +45,7 @@ include("CIFAR100/CIFAR100.jl")
 include("MNIST/MNIST.jl")
 include("FashionMNIST/FashionMNIST.jl")
 include("SVHN2/SVHN2.jl")
+include("STL10/STL10.jl")
 include("PTBLM/PTBLM.jl")
 include("UD_English/UD_English.jl")
 

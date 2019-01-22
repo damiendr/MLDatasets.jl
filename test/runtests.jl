@@ -4,6 +4,7 @@ using MLDatasets
 tests = [
     "tst_cifar10.jl",
     "tst_cifar100.jl",
+    "tst_stl10.jl",
     "tst_mnist.jl",
     "tst_fashion_mnist.jl",
     "tst_svhn2.jl",

@@ -67,15 +67,14 @@ below a list of available datasets and their documentation.
 This package provides a variety of common benchmark datasets for
 the purpose of image classification.
 
-Dataset | Classes | `traintensor` | `trainlabels` | `testtensor` | `testlabels`
-:------:|:-------:|:-------------:|:-------------:|:------------:|:------------:
-[**MNIST**](@ref MNIST) | 10 | 28x28x60000 | 60000 | 28x28x10000 | 10000
-[**FashionMNIST**](@ref FashionMNIST) | 10 | 28x28x60000 | 60000 | 28x28x10000 | 10000
-[**CIFAR-10**](@ref CIFAR10) | 10 | 32x32x3x50000 | 50000 | 32x32x3x10000 | 10000
-[**CIFAR-100**](@ref CIFAR100) | 100 (20) | 32x32x3x50000 | 50000 (x2) | 32x32x3x10000 | 10000 (x2)
-[**SVHN-2**](@ref SVHN2) (*) | 10 | 32x32x3x73257 | 73257 | 32x32x3x26032 | 26032
-
-(*) Note that the SVHN-2 dataset provides an additional 531131 observations aside from the training- and testset
+Dataset | Classes | `traintensor` | `trainlabels` | `testtensor` | `testlabels` | `extra` / `unlabeled`
+:------:|:-------:|:-------------:|:-------------:|:------------:|:------------:|:----------------------:
+[**MNIST**](@ref MNIST) | 10 | 28x28x60000 | 60000 | 28x28x10000 | 10000 | -
+[**FashionMNIST**](@ref FashionMNIST) | 10 | 28x28x60000 | 60000 | 28x28x10000 | 10000 | -
+[**CIFAR-10**](@ref CIFAR10) | 10 | 32x32x3x50000 | 50000 | 32x32x3x10000 | 10000 | -
+[**CIFAR-100**](@ref CIFAR100) | 100 (20) | 32x32x3x50000 | 50000 (x2) | 32x32x3x10000 | 10000 (x2) | -
+[**SVHN-2**](@ref SVHN2) | 10 | 32x32x3x73257 | 73257 | 32x32x3x26032 | 26032 | 32x32x3x531131
+[**STL-10**](@ref STL10) | 10 | 96x96x3x5000 | 5000 | 96x96x3x8000 | 8000 | 96x96x3x100000
 
 ### Language Modeling
 
